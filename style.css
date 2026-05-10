@@ -1,0 +1,50 @@
+/* Import písma, které vypadá jako na tvém obrázku */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* Definice tvých barev */
+:root {
+    --cervena: #CD5C5C;    /* Indian Red */
+    --kremova: #FFFACD;    /* Lemon Chiffon */
+}
+
+body {
+    background-color: var(--kremova);
+    color: #333;
+    font-family: 'Playfair Display', serif; /* To elegantní písmo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigační menu - aby bylo všude stejné a fungovalo */
+nav {
+    background-color: var(--cervena);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--kremova);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Bílý papír uprostřed pro text */
+.kontejner {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: var(--cervena);
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
